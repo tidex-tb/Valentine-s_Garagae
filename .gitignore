@@ -1,0 +1,36 @@
+# Android Studio / IntelliJ
+*.iml
+.idea/
+!.idea/codeStyles/
+.DS_Store
+
+# Gradle
+.gradle/
+.gradle-user/
+.kotlin/
+build/
+/build
+captures/
+.externalNativeBuild
+.cxx
+
+# Local machine configuration - contains this machine's SDK path
+local.properties
+
+# Android SDK user state written into the project by tooling
+.android-user/
+
+# Debug output captured while troubleshooting
+crash.txt
+crash-emu.txt
+*.log
+
+# Keystores and signing material - never commit these
+*.jks
+*.keystore
+keystore.properties
+
+# Firebase project configuration. Not a credential (it ships inside every APK),
+# but publishing it hands anyone the project ID and API key, which is only safe
+# once Firestore security rules actually restrict access. See google-services.json.template
+app/google-services.json
