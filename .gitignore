@@ -34,3 +34,5 @@ keystore.properties
 # but publishing it hands anyone the project ID and API key, which is only safe
 # once Firestore security rules actually restrict access. See google-services.json.template
 app/google-services.json
+# Project documents: kept on the developer's PC, not part of the running app
+ARCHITECTURE.md
